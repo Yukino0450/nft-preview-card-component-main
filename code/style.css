@@ -1,0 +1,153 @@
+/* #region*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* #endregion*/
+
+body {
+  background-color: #0d1a2d;
+  color: white;
+}
+
+.container {
+  background-color: #15273f;
+  width: 250px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  border-radius: 5%;
+}
+
+.top_pic {
+  width: 90%;
+  margin: auto;
+  display: block;
+  padding-top: 10px; /*margin-topにしたらcontainerの外部分に隙間ができた。なぜか？*/
+  border-radius: 5%;
+  position: relative;
+}
+/* 
+.top_pic:hover {
+  filter: sepia(1) hue-rotate(150deg) brightness(200%);
+  color: #25ffff;
+} */
+
+.title {
+  color: white;
+  display: block;
+  margin: 10px 10px;
+  font-weight: bold;
+}
+
+.title:hover {
+  color: #25ffff;
+  cursor: pointer;
+}
+
+.description {
+  color: #98adcc;
+  font-size: smaller;
+  display: block;
+  margin: 10px 10px;
+}
+
+.value {
+  color: #25ffff;
+  font-size: 8px;
+  font-weight: bold;
+  display: block;
+  margin: 10px 10px;
+  position: relative;
+}
+
+.time {
+  color: #87a9d6;
+  font-size: 8px;
+  display: block;
+  width: 100px;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 170px;
+}
+
+.time svg {
+  top: 3px;
+}
+
+.value svg {
+  top: 4px;
+}
+
+svg {
+  scale: 70%;
+  position: relative;
+}
+
+.first {
+  color: #87a9d6;
+  font-size: 2px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+.creater {
+  color: white;
+}
+
+.creater:hover {
+  color: #25ffff;
+  cursor: pointer;
+}
+
+.username {
+  padding: 8px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  /* border: red solid 2px; */
+}
+
+.icon_pic {
+  width: 10%;
+  border: white solid 1px;
+  border-radius: 50%;
+  position: relative;
+  right: 10px;
+}
+
+/* .blue {
+    opacity: .5;
+  width: 90%;
+  margin: auto;
+  display: block;
+  border-radius: 5%;
+  background-color: aqua;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+.eye {
+  /* border: red solid 1px; */
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  opacity: 0;
+}
+
+.eye:hover {
+  /* border: red solid 1px; */
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  opacity: 1;
+}
