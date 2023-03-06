@@ -8,7 +8,6 @@
 }
 
 .attribution a {
-  /* color: hsl(228, 45%, 44%); */
   color: orange;
 }
 /* #endregion*/
@@ -39,12 +38,7 @@ body {
   width: 100%;
   border-radius: 5%;
 }
-/* 
-.top_pic:hover {
-     cursor: pointer;
-  filter: sepia(1) hue-rotate(150deg) brightness(200%);
-  color: #25ffff;
-} */
+
 
 .title {
   color: white;
