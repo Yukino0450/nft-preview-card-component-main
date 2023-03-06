@@ -2,13 +2,14 @@
 
 .attribution {
   font-size: 11px;
-  text-align: center;
   bottom: 0;
   position: fixed;
+  left: 20px;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  /* color: hsl(228, 45%, 44%); */
+  color: orange;
 }
 /* #endregion*/
 
